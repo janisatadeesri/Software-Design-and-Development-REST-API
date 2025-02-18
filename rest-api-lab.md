@@ -412,6 +412,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+![Screenshot 2025-02-18 164928](https://github.com/user-attachments/assets/e9b1320d-7245-4674-b505-52c9179b86cf)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
