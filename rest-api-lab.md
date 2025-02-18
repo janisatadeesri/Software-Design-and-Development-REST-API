@@ -375,11 +375,11 @@ npm run dev
        "roomtype": "standard",
        "guests": 2
    }
-   ```
+  
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+![Screenshot 2025-02-18 164928](https://github.com/user-attachments/assets/d4b84f3d-9252-4c18-bc37-195387874d59)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
