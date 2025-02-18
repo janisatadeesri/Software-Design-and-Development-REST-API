@@ -375,11 +375,11 @@ npm run dev
        "roomtype": "standard",
        "guests": 2
    }
-   ```
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+ ![Screenshot 2025-02-18 222512](https://github.com/user-attachments/assets/2ec787bd-558d-4456-8763-4f57c119fb70)
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -389,7 +389,8 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+ ![Screenshot 2025-02-18 222558](https://github.com/user-attachments/assets/2f3b4e23-c7d7-465a-97aa-b9a091f01820)
+
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
