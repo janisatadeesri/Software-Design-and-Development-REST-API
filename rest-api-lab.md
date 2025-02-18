@@ -380,6 +380,8 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+![Screenshot 2025-02-18 164928](https://github.com/user-attachments/assets/0d7f0268-3855-442e-b060-65cdaf5d6dea)
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -390,6 +392,8 @@ npm run dev
   
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![Screenshot 2025-02-18 165800](https://github.com/user-attachments/assets/215b6d81-ee1d-4ae2-96b9-b72e92b88383)
+
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -542,23 +546,6 @@ def dict_factory(cursor, row):
         d[col[0]] = row[idx]
     return d
 
-def create_table():
-        conn = sqlite3.connect('bookings.db')
-        conn.row_factory = dict_factory
-        c = conn.cursor()
-        sql= '''CREATE TABLE IF NOT EXISTS bookings (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        fullname TEXT NOT NULL,
-        email TEXT NOT NULL,
-        phone TEXT NOT NULL,
-        checkin DATE NOT NULL,
-        checkout DATE NOT NULL,
-        roomtype TEXT NOT NULL,
-        guests INTEGER NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)'''
-        c.execute(sql)
-
-create_table()
 # สร้างการจอง (Create)
 @app.route('/api/bookings', methods=['POST'])
 def create_booking():
